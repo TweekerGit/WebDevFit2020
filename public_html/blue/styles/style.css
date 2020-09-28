@@ -1,0 +1,99 @@
+body {
+	text-align: center;
+
+	font-family: "Century Gothic", sans-serif;
+}
+.page {
+	width: 500px;
+	height: 800px;
+	text-align: center;
+	margin: 0 auto;
+}
+.name {
+	line-height: 1;
+	font-size: 65px;
+	margin-bottom: -40px;
+}
+.last__name {
+	line-height: 1;
+	font-size: 45px;
+}
+.contacts {
+	font-size: 10px;
+	color: rgb(150, 141, 141);
+}
+.container__job {
+	position: relative;
+	top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(25, 111, 216);
+}
+.container__job:before,
+.container__job:after {
+	content: '';
+	width: 100px;
+	height: 1px;
+	background-color: rgb(25, 111, 216);
+	position: absolute;
+	top: 10px;
+	left: 0px;
+}
+.container__job:after {
+	left: 400px;
+}
+.all {
+	display: flex;
+	height: 100px;
+	margin-top: 50px;
+}
+.article {
+	text-align: left;
+	width: 75%;
+}
+.aside {
+	background-color: rgba(4, 157, 233, 0.5);
+	text-align: left;
+	width: 25%;
+	height: 100%;
+}
+.heading {
+	font-size: 18px;
+	font-weight: 700;
+}
+.container__article {
+	display: flex;
+	margin-top: 15px;
+}
+.left {
+	color: rgb(25, 111, 216);
+	font-size: 9px;
+}
+.right {
+	margin-left: 15px;
+}
+.title {
+	font-size: 11px;
+	font-weight: 700;
+}
+.subtitle {
+	font-size: 11px;
+	color: rgb(150, 141, 141);
+}
+.text {
+	font-size: 9px;
+}
+.second__heading {
+	margin-top: 20px;
+}
+.aside {
+	padding: 3px;
+	height: 560px;
+}
+.aside__element .sub{
+	font-weight: 700;
+	color: #000;
+}
+.second__subtitle {
+	margin-top: 10px;
+}
